@@ -10,7 +10,7 @@ import { Tooltip } from "react-tooltip";
 import SignersInput from "../shared/fields/SignersInput";
 
 const EditTemplate = ({ template, onSuccess }) => {
-  const appName = "OpenSign™";
+  const appName = "SignQuill";
   const { t } = useTranslation();
   const [formData, setFormData] = useState({
     Name: template?.Name || "",

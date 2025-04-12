@@ -22,7 +22,7 @@ import { useTranslation } from "react-i18next";
 import SelectLanguage from "../components/pdf/SelectLanguage";
 
 function Login() {
-  const appName = "OpenSign™";
+  const appName = "SignQuill";
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();

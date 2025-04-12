@@ -1040,7 +1040,7 @@ export const addInitialData = (signerPos, setXyPosition, value, userId) => {
 
 //function for embed document id
 export const embedDocId = async (pdfDoc, documentId, allPages) => {
-  const appName = "OpenSign™";
+  const appName = "SignQuill";
   // `fontBytes` is used to embed custom font in pdf
   const fontBytes = await fileasbytes(
     "https://cdn.opensignlabs.com/webfonts/times.ttf"
@@ -2201,7 +2201,7 @@ export const handleSendOTP = async (email) => {
   }
 };
 export const fetchUrl = async (url, pdfName) => {
-  const appName = "OpenSign™";
+  const appName = "SignQuill";
   try {
     const response = await fetch(url);
     if (!response.ok) {
@@ -2350,7 +2350,7 @@ export const handleDownloadCertificate = async (
   setIsDownloading,
   isZip
 ) => {
-  const appName = "OpenSign™";
+  const appName = "SignQuill";
   if (pdfDetails?.length > 0 && pdfDetails[0]?.CertificateUrl) {
     try {
       await fetch(pdfDetails[0] && pdfDetails[0]?.CertificateUrl);
@@ -2955,7 +2955,7 @@ export const flattenPdf = async (pdfFile) => {
 };
 
 export const mailTemplate = (param) => {
-  const appName = "OpenSign™";
+  const appName = "SignQuill";
   const logo = `<div style='padding:10px'><img src='https://qikinnovation.ams3.digitaloceanspaces.com/logo.png' height='50' /></div>`;
 
   const opurl = ` <a href='https://www.opensignlabs.com' target=_blank>here</a>.</p></div></div></body></html>`;

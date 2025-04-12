@@ -70,7 +70,7 @@ import AddContact from "../primitives/AddContact";
 function PlaceHolderSign() {
   const { t } = useTranslation();
   const copyUrlRef = useRef(null);
-  const appName = "OpenSign™";
+  const appName = "SignQuill";
   const editorRef = useRef();
   const { state } = useLocation();
   const navigate = useNavigate();

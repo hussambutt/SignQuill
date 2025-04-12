@@ -4,7 +4,7 @@ import axios from "axios";
 import { openInNewTab } from "../constant/Utils";
 import { useTranslation } from "react-i18next";
 const Footer = () => {
-  const appName = "OpenSign™";
+  const appName = "SignQuill";
   const { t } = useTranslation();
   const [showButton, setShowButton] = useState(false);
   const [version, setVersion] = useState("");

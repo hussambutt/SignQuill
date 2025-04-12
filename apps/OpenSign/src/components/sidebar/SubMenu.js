@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router";
 
 const Submenu = ({ item, closeSidebar, toggleSubmenu, submenuOpen }) => {
-  const appName = "OpenSign™";
-  const drivename = appName === "OpenSign™" ? "OpenSign™" : "";
+  const appName = "SignQuill";
+  const drivename = appName === "OpenSign™" ? "OpenSign™" : "SignQuill";
   const { t } = useTranslation();
   const { title, icon, children } = item;
   return (

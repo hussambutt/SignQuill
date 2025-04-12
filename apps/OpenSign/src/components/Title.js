@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 function Title({ title, drive }) {
   const appName =
-    "OpenSign™";
+    "SignQuill;
   return (
     <Helmet>
       <title>{drive ? title : `${title} - ${appName}`}</title>

@@ -25,8 +25,8 @@ const AppLoader = () => {
   );
 };
 function Opensigndrive() {
-  const appName = "OpenSign™";
-  const drivename = appName === "OpenSign™" ? "OpenSign™" : "";
+  const appName = "SignQuill";
+  const drivename = appName === "OpenSign™" ? "OpenSign™" : "SignQuill";
   const { t } = useTranslation();
   const navigate = useNavigate();
   const scrollRef = useRef(null);

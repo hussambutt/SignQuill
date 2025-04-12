@@ -66,7 +66,7 @@ import TextFontSetting from "../components/pdf/TextFontSetting";
 
 function PdfRequestFiles() {
   const { t } = useTranslation();
-  const appName = "OpenSign™";
+  const appName = "SignQuill";
   const [pdfDetails, setPdfDetails] = useState([]);
   const [signedSigners, setSignedSigners] = useState([]);
   const [unsignedSigners, setUnSignedSigners] = useState([]);

@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router";
 
 const Menu = ({ item, isOpen, closeSidebar }) => {
-  const appName = "OpenSign™";
-  const drivename = appName === "OpenSign™" ? "OpenSign™" : "";
+  const appName = "SignQuill";
+  const drivename = appName === "OpenSign™" ? "OpenSign™" : "SignQuill";
   const { t } = useTranslation();
   return (
     <li key={item.title} role="none" className="my-0.5">
