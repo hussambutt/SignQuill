@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 const SelectFolder = ({ required, onSuccess, folderCls, isReset }) => {
   const appName =
-    "SignQuill;
+    "SignQuill";
   const drivename = appName === "OpenSign™" ? "OpenSign™" : "SignQuill";
   const { t } = useTranslation();
   const [isOpen, SetIsOpen] = useState(false);
